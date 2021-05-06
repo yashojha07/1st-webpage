@@ -1,0 +1,95 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PLAN-TOUR</title>
+</head>
+<style>
+    body{
+        background-image: url('10.jpg');
+        
+    }
+ 
+
+
+</style>
+<body>
+    <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: xx-large;">EXPLORE the World..</h2>
+
+    <img style="align-self: center; margin-right: 100px; margin-right: 100px; border-style: solid;" src="21.gif" width="100%" height="60%">
+    <form action="backend.php">
+        <label for="name"> Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <!-- <div>
+            chose city: <input type="text" name="chose-city">
+        </div> -->
+        
+        <div>
+
+            Select your city: Orchha <input type="radio" name="city"> Udaipur <input type="radio" name="city">
+            Jaipur<input type="radio" name="city"> Gwalior <input type="radio" name="city">Pachmari <input type="radio" name="city">Shivpuri <input type="radio" name="city">Shimla <input type="radio" name="city">CHITTORGRAH <input type="radio" name="city">kulu Manali <input type="radio" name="city">Rishikesh <input type="radio" name="city">
+        </div>
+
+
+
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+
+        <br>
+        <div>
+            From: <input type="date" name="myDate"><br> To: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Total members: <input type="number" name="total members">
+        </div>
+        <br>
+        <!-- <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+        </div> -->
+
+        <!-- <div>
+            Plan: Platinum<input = "radio" name="Platinum"> Gold <input ="radio" name="Gold"> Silver<input ="radio" name="Silver"> 
+        </div> -->
+        <br>
+        <!-- <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div> -->
+
+
+        <div>
+            <label for="CHOOSE Plan">Chose plan</label>
+            <select name="CHOOSE Plan" id="Plan">
+                <option value="ind">Platinum</option>
+                <option value="swf" selected>GOLD</option>
+                <option value="ind">Silver</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Write names of all members,age,Gender : <br><textarea name="myText" cols="90" rows="10" style="background-color: transparent;"></textarea>
+        </div>
+
+        <br>
+       
+        <br>
+
+        <div>
+            
+            Message/comment : <br><textarea name="myText" cols="50" rows="5"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
